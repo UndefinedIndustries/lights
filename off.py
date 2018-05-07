@@ -7,4 +7,4 @@ GPIO.setwarnings(False)
 i = 4
 GPIO.setup(i, GPIO.OUT)
 GPIO.output(i, True)
-print 'turning off lights'
+print '[[INFO]] LIGHTS HAVE BEEN TURNED OFF'

@@ -23,9 +23,9 @@
  <br/>
  <br/>
  <form action="submit.php" method="get" onsubmit="return false;">
-     <button id="<?php echo $toggle_to;?>" name="<?php echo $toggle_to;?>" class="w3-btn w3-<?php echo $color; ?> w3-xlarge" onclick="getData('<?php echo $toggle_to;?>')">
+     <span id="<?php echo $toggle_to;?>" name="<?php echo $toggle_to;?>" class="w3-btn w3-<?php echo $color; ?> w3-xlarge" onclick="getData('<?php echo $toggle_to;?>') " class='btn'>
          Turn <?php 
              echo $toggle_opp;
           ?>
-    </button>
+    </span>
 </form>
