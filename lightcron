@@ -1,3 +1,0 @@
-0 20 * * * sudo python /home/pi/proj/on.py
-0 6 * * * sudo python /home/pi/proj/off.py
-0 1 * * * /opt/lightpi/getsunrisesunset.py

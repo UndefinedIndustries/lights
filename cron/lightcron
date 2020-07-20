@@ -1,0 +1,3 @@
+53 20 * * * sudo python /opt/lightpi/script/on.py
+14 6 * * * sudo python /opt/lightpi/script/off.py
+0 1 * * * /opt/lightpi/buildcron.sh
