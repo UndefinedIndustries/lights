@@ -33,11 +33,17 @@ float:none!important;
 </style>
 <div style="position:fixed;top:0;left:0;">
 
-<a href="../.." class="w3-btn w3-hover-pink" style="float: left">Home</a> &nbsp <a href="edit.php" class="w3-btn w3-hover-pink" style="float: left">Config</a>
+<a href="../.." class="w3-btn w3-hover-pink" style="float: left">Home</a>
 
 	</div>
 
 <center>
+		<?php if($_GET['error']=="perm"){
+			?>
+	<br>
+			<span id="alert" style="padding: 16px;"class="w3-gray w3-card-4">Error: Permission deined.</span>
+			<?php }
+			?>
     <div id="data">
         <?php include 'check.php'; ?>
     </div>
