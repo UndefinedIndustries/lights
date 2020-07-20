@@ -1,1 +1,1 @@
-0 1 * * * /opt/lightpi/buildcron.sh
+0 1 * * * /opt/lightpi/script/buildcron.sh
