@@ -21,7 +21,7 @@
     </script>
 
 	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
-<link href="/modules/SQLSprinkler/css/style.css" rel="stylesheet" type="text/css"></link>
+<link href="style.css" rel="stylesheet" type="text/css"></link>
 </head> 
 <body>
 
