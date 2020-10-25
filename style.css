@@ -1,0 +1,27 @@
+/* CSS Document */
+body{
+
+    background-color: #999;
+    background-image: url(bg.jpg);
+    display: block;
+    color: white;
+    background-size: cover!important;
+
+}
+#data{
+    max-width: 1200px;
+
+}
+.label{
+    float: left!important;
+}
+button{
+    float:right!important;
+}
+td{
+    vertical-align: middle!important;
+    
+}
+tr{
+vertical-align: middle!important;
+}
